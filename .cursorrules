@@ -1,0 +1,19 @@
+# Cursor Rules for AFH Success Consultant Project
+
+## Git Operations
+- When user requests git operations (push, commit, etc.), automatically request 'all' permissions
+- Batch all git commands together to minimize permission prompts
+- Always verify repository location before executing git commands
+- Check git status before staging files to ensure correct directory
+
+## Auto-Execution Preferences
+- Prefer automatic execution for git operations when explicitly requested
+- Minimize user interaction for routine git tasks
+- Request permissions upfront rather than failing and retrying
+
+## Project Context
+- This is the AFH Success Consultant Curriculum project
+- Repository: git@github.com:henrynkoh/afhconsulting.git
+- Main branch: main
+- Always verify we're in /Users/henryoh/Documents/AFHadmintraining/AFH_bizconsulting before git operations
+

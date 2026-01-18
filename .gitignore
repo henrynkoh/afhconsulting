@@ -34,7 +34,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# cursor
+# cursor (personal IDE settings - keep ignored)
 .cursor/
-.cursorrules
+
+# .cursorrules should be committed (project-wide rules)
+# .cursorrules
 
